@@ -1,0 +1,152 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+/* common style */
+body{
+    font-family:'Poppins', sans-serif; 
+    
+}
+header{
+    display: flex;
+    justify-content: space-around;
+}
+/* new-sections-style */
+.title-picture{
+    display: flex;
+
+   
+}
+.ar-blog{
+    width: 40%;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 6%;
+   
+}
+.tittle-name{
+   font-size: 25px;
+   color: rgba(8, 8, 8, 0.842);
+  
+    
+}
+nav>ul{
+    display: flex;
+
+}
+ul>li{
+    color: rgba(27, 26, 26, 0.842);
+    list-style: none;
+    padding-left: 20px;
+    margin-top: 60px;   
+}
+.title-name-two{
+   font-size:50px;
+   padding-left: 20px;
+    color: rgba(8, 8, 8, 0.842);
+}
+.button{
+    background-color: rgb(221, 42, 69);
+    color: white;
+    padding: 10px;
+    padding-left:20px;
+    padding-right:20px ;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-right: 10px;
+    margin: 10px;
+    border-radius: 15px;
+    text-decoration: none;
+    
+   
+}
+
+.picture-one:hover{
+    display: flex;
+   padding-left: 10%;
+   margin-top: 5%;
+ transform: scale(1.5),rotate(360deg);
+ transition: transform 2s ease-in-out;
+}
+/* new-sections-style-end */
+.title-name-three{
+    text-align: center;
+    margin-top: 200px;
+    font-size: 30px;
+   color: rgba(14, 13, 13, 0.842);
+  
+}
+.blog-tittle{
+    font-size:2em;
+}
+
+p{
+    font-size: 20px;
+}
+#paragraph{
+    font-size: 15px; 
+    color: rgb(80, 75, 75);
+}
+.blogs{
+    margin: 50px;
+    margin-left: 10%;
+    margin-top: 50px;
+    margin-right: 5%;
+    width: 30px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+    padding-left: 30px;
+
+}
+
+
+.blog{
+    box-shadow: 10px 10px 40px rgba(175, 172, 172, 0.842);
+} 
+.picture-two{
+    margin: 20px;
+  
+}
+.info{
+    padding:3px;
+    margin: 10px;
+
+    
+}
+ .star-section{
+ display: flex;
+    font-size: 12px; 
+   color:#FFC014;;
+   
+ }
+span{
+    color: black;
+    font-size: 15px;
+    padding-left:15px ;
+ 
+}
+.button-2{
+    color:rgb(221, 42, 69);
+    padding: 100px;
+    padding-left: 84%;
+    padding-top: 10px;
+    text-decoration: none;
+    
+}
+
+
+.last-section{
+background-color: rgb(22, 14, 44);
+color: white;
+text-align: center;
+padding:50px;}
+#paragraph-2{
+    font-size:15px;
+}
+.icons{
+    padding: 10px;
+    margin: 20px;
+    font-size: 30px;
+}
