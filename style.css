@@ -71,7 +71,10 @@ ul>li{
  transform: scale(1.5),rotate(360deg);
  transition: transform 2s ease-in-out;
 }
-/* new-sections-style-end */
+/*.... new-sections-style-end.... */
+/*.....
+ new-sections-style-start
+ ......  */
 .title-name-three{
     text-align: center;
     margin-top: 200px;
@@ -148,6 +151,7 @@ margin-top: 50px;
 margin-right: 1ex;
 width: 50%;
 }
+/* ...last-section-style .... */
 #last-header{
     text-align: center;
     font-size: 2em;
